@@ -1,6 +1,6 @@
 # Quantum light-driven many-level systems
 
-Python simulations from my Ph.D. thesis at TU Berlin (2018).
+Python simulations from my Ph.D. thesis at TU Berlin (2017).
 
 > *"Quantum light-driven many-level systems in the weak and strong coupling limits"*  
 > Supervisors: Prof. Andreas Knorr · Dr. Thomas Koprucki, TU Berlin
