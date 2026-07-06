@@ -71,11 +71,14 @@ docs/
 - [`QuTiP`](http://qutip.org/) — Quantum Toolbox in Python, used for density matrix evolution and operator algebra
 
 ---
-## Installation
-```bash
-pip install numpy scipy matplotlib qutip
 
+
+---
 ## Reference
 
 Chatraee Azizabadi, S. (2018). *Quantum light-driven many-level systems in the weak and strong coupling limits.* Ph.D. thesis, Technische Universität Berlin.  
 → [TU Berlin repository](https://depositonce.tu-berlin.de/items/9218e477-b112-49e7-889f-44d0d24a8646)
+## Installation
+```bash
+pip install numpy scipy matplotlib qutip
+---
