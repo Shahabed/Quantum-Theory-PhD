@@ -71,6 +71,9 @@ docs/
 - [`QuTiP`](http://qutip.org/) — Quantum Toolbox in Python, used for density matrix evolution and operator algebra
 
 ---
+## Installation
+```bash
+pip install numpy scipy matplotlib qutip
 
 ## Reference
 
