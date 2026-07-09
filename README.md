@@ -52,6 +52,30 @@ Each cavity is described as a quantized field mode coupled to a two- or four-lev
 - Entanglement between emitters in the target cavity can be generated and controlled through cavity-mediated coupling.
 
 ---
+## Technologies
+
+- **Python 3**
+- **[QuTiP](http://qutip.org/)** (Quantum Toolbox in Python) — used for density matrix evolution and operator algebra
+- **NumPy / SciPy** — ODE solvers and sparse matrix operations
+- **Matplotlib** — visualization and plotting
+
+## Skills Demonstrated
+
+- Numerical simulation of open quantum systems
+- Master equation and Lindblad formalism
+- Tensor-product Hilbert spaces and multi-partite quantum systems
+- Calculation of photon correlation functions and entanglement measures
+- Scientific Python development and data visualization
+
+## How to Use
+
+```bash
+pip install -r requirements.txt
+jupyter notebook notebooks/
+
+
+---
+
 
 ## Repository Structure
 
@@ -76,52 +100,3 @@ Quantum-Theory-PhD/
 ├── requirements.txt
 └── LICENSE
 
-
----
-
-
-## Technologies
-
-- **Python 3**
-- **[QuTiP](http://qutip.org/)** (Quantum Toolbox in Python) — used for density matrix evolution and operator algebra
-- **NumPy / SciPy** — ODE solvers and sparse matrix operations
-- **Matplotlib** — visualization and plotting
-
-
-## Skills Demonstrated
-
-- Numerical simulation of open quantum systems
-- Master equation and Lindblad formalism
-- Tensor-product Hilbert spaces and multi-partite quantum systems
-- Calculation of photon correlation functions and entanglement measures
-- Scientific Python development and data visualization
-
-
-## How to Use
-
-```bash
-pip install -r requirements.txt
-jupyter notebook notebooks/
-
-## Technologies
-
-- **Python 3**
-- **[QuTiP](http://qutip.org/)** (Quantum Toolbox in Python) — used for density matrix evolution and operator algebra
-- **NumPy / SciPy** — ODE solvers and sparse matrix operations
-- **Matplotlib** — visualization and plotting
-
-
-## Skills Demonstrated
-
-- Numerical simulation of open quantum systems
-- Master equation and Lindblad formalism
-- Tensor-product Hilbert spaces and multi-partite quantum systems
-- Calculation of photon correlation functions and entanglement measures
-- Scientific Python development and data visualization
-
-
-## How to Use
-
-```bash
-pip install -r requirements.txt
-jupyter notebook notebooks/
