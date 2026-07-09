@@ -1,0 +1,127 @@
+PhD Thesis: Quantum light driven many level systems in the weak and strong coupling limits
+Author: Shahabed Chatraee Azizabadi
+Institution: Technische Universität Berlin, 2017
+
+================================================================================
+MAIN RESEARCH TOPIC
+================================================================================
+
+Investigation of open quantum systems consisting of coupled optical cavities 
+interacting with multi-level quantum emitters (two-level atoms or excitons) 
+under incoherent driving. The work focuses on the transition between weak and 
+strong light-matter coupling regimes and the control of quantum correlations 
+and photon statistics.
+
+Core Setup:
+- Source cavity: Incoherently pumped
+- Target cavity: Contains one or more two-level systems (atoms/excitons)
+- Coupling: Jaynes-Cummings type interaction between cavity modes and emitters
+- Driving: Incoherent pumping (rate Γ) on the source emitter
+
+================================================================================
+KEY PHYSICAL SYSTEMS STUDIED
+================================================================================
+
+1. Single source cavity with a driven two-level emitter
+2. Coupled source-target cavities with one emitter in the target
+3. Coupled cavities with two emitters (atoms or excitons) in the target
+4. Systems with three emitters in the target cavity
+
+Two coupling models were compared:
+- Atomic model: Standard Jaynes-Cummings coupling
+- Excitonic model: Modified coupling terms with different dissipation channels
+
+================================================================================
+METHODOLOGY
+================================================================================
+
+- Hamiltonian: Jaynes-Cummings model for cavity-emitter interaction
+- Open system dynamics: Lindblad master equation
+- Numerical framework: QuTiP (Quantum Toolbox in Python)
+- Solution method: Steady-state solution of the Liouvillian superoperator
+- Observables:
+  * Average photon number ⟨n⟩ = ⟨a†a⟩
+  * Second-order correlation function g²(0)
+  * Wigner function of the cavity field
+  * Concurrence (for two-qubit entanglement)
+  * Von Neumann entropy (mixedness/entanglement measure)
+
+Parameter regimes explored:
+- Weak to strong coupling (g/κ, g/γ)
+- Different incoherent pump rates Γ
+- Varying cavity decay rates (κ_s, κ_t)
+- Different emitter-cavity coupling strengths (g_s, g_t)
+
+================================================================================
+KEY RESULTS
+================================================================================
+
+1. Control of Target Photon Statistics via Source Pumping
+   - The photon statistics (thermal vs. antibunched) of the target cavity 
+     can be influenced by the incoherent pumping rate applied to the source 
+     cavity emitter.
+   - Increasing the source pump rate Γ can drive the target system from 
+     thermal (g²(0) > 1) toward coherent or antibunched regimes.
+
+2. Atomic vs Excitonic Coupling Models
+   - Significant differences were observed between atomic and excitonic 
+     coupling in terms of:
+       * Steady-state photon number
+       * Photon blockade / bunching behavior
+       * Generation of entanglement between emitters
+   - Excitonic models showed modified cross-damping terms and different 
+     effective coupling strengths.
+
+3. Indirect vs Direct Coupling
+   - Indirect coupling (mediated by the cavity field) vs direct dipole-dipole 
+     coupling between emitters leads to qualitatively different steady-state 
+     properties and entanglement dynamics.
+   - Cavity-mediated (indirect) coupling can generate entanglement even in 
+     the presence of strong dissipation.
+
+4. Entanglement Generation and Quantification
+   - Concurrence and von Neumann entropy were used to quantify entanglement 
+     between two emitters in the target cavity.
+   - Entanglement was found to depend strongly on the pump rate, detuning, 
+     and the ratio g_t / κ_t.
+   - Optimal parameter regimes for maximum entanglement were identified.
+
+5. Wigner Function Analysis
+   - Wigner functions of the cavity field revealed non-classical features 
+     (negative regions) under specific driving conditions.
+   - Transition from thermal to non-classical states was observed as 
+     function of pump strength and coupling parameters.
+
+6. Hierarchical and Multi-Emitter Systems
+   - Systems with two and three emitters in the target cavity were studied.
+   - Collective effects and modified photon statistics were analyzed.
+   - Scaling behavior of entanglement and photon correlations with emitter 
+     number was investigated.
+
+================================================================================
+SCIENTIFIC CONTRIBUTION
+================================================================================
+
+- Demonstrated external control of target system quantum properties 
+  through source cavity pumping.
+- Provided comparative analysis between atomic and excitonic light-matter 
+  coupling models in open quantum systems.
+- Contributed to understanding of entanglement generation in dissipatively 
+  coupled cavity QED systems.
+- Developed numerical tools and analysis methods for multi-cavity, 
+  multi-emitter open quantum systems using QuTiP.
+
+================================================================================
+RELEVANT TECHNIQUES AND SKILLS DEMONSTRATED
+================================================================================
+
+- Numerical solution of open quantum system master equations
+- Tensor product Hilbert spaces and multi-partite quantum systems
+- Steady-state and time-dependent simulations with QuTiP
+- Calculation of quantum correlation functions and entanglement measures
+- Parameter space exploration and optimization
+- Scientific Python programming and data visualization
+
+================================================================================
+END OF SUMMARY
+================================================================================
