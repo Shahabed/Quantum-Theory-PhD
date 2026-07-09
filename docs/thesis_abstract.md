@@ -1,4 +1,4 @@
-# Thesis summary — plain language
+# Thesis summary 
 
 **Title:** Quantum light-driven many-level systems in the weak and strong coupling limits  
 **Institution:** Technische Universität Berlin, 2018  
