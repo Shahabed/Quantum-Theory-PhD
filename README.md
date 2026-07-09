@@ -76,7 +76,23 @@ Quantum-Theory-PhD/
 ├── requirements.txt
 └── LICENSE
 ---
-## Reference
-Chatraee Azizabadi, S. (2018). Quantum light-driven many-level systems in the weak and strong coupling limits. Ph.D. thesis, Technische Universität Berlin.
----
-## Note: This repository contains research code from my Ph.D. work. While it has been reorganized for clarity, it reflects the iterative nature of scientific research. For the complete theoretical framework and results, please refer to the thesis linked above.
+## Technologies
+
+- **Python 3**
+- **QuTiP** (Quantum Toolbox in Python) — used for density matrix evolution and operator algebra
+- **NumPy / SciPy** — ODE solvers and sparse matrix operations
+- **Matplotlib** — visualization and plotting
+
+## Skills Demonstrated
+
+- Numerical simulation of open quantum systems
+- Master equation and Lindblad formalism
+- Tensor-product Hilbert spaces and multi-partite quantum systems
+- Calculation of photon correlation functions and entanglement measures
+- Scientific Python development and data visualization
+
+## How to Use
+
+```bash
+pip install -r requirements.txt
+jupyter notebook notebooks/
