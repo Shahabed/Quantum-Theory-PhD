@@ -76,6 +76,8 @@ Quantum-Theory-PhD/
 ├── requirements.txt
 └── LICENSE
 
+---
+
 
 ## Technologies
 
@@ -83,6 +85,8 @@ Quantum-Theory-PhD/
 - **[QuTiP](http://qutip.org/)** (Quantum Toolbox in Python) — used for density matrix evolution and operator algebra
 - **NumPy / SciPy** — ODE solvers and sparse matrix operations
 - **Matplotlib** — visualization and plotting
+
+---
 
 ## Skills Demonstrated
 
@@ -92,14 +96,20 @@ Quantum-Theory-PhD/
 - Calculation of photon correlation functions and entanglement measures
 - Scientific Python development and data visualization
 
+---
+
 ## How to Use
 
 ```bash
 pip install -r requirements.txt
 jupyter notebook notebooks/
 
+---
+
 ## Reference
 
 Chatraee Azizabadi, S. (2018). *Quantum light-driven many-level systems in the weak and strong coupling limits.* Ph.D. thesis, Technische Universität Berlin.
+
+---
 
 > **Note:** This repository contains research code from my Ph.D. work. While it has been reorganized for clarity, it reflects the iterative nature of scientific research. For the complete theoretical framework and results, please refer to the thesis linked above.
